@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex flex-col min-h-dvh">
+      <nav class="py-4 flex justify-center bg-purple-700 text-white">
+        <div class="flex flex-col items-center gap-3">
+          <span class="text-2xl font-bold"> My Blog </span>
+          <div class="flex gap-2 text-sm font-semibold">
+            <a href="/"> Home </a>
+            <a> About </a>
+            <a> Contact </a>
+          </div>
+        </div>
+      </nav>
+
+      <main class="p-4 text-gray flex-1">
+        <div class="divide-y flex flex-col rounded-lg shadow-lg">
+          <div class="p-4 flex flex-col gap-4">
+            <span class="text-2xl font-bold"> Blog Post Title </span>
+            <span class="text-sm font-thin">
+              Content of the first blog post.
+            </span>
+          </div>
+          <div class="p-4 flex flex-col gap-4">
+            <span class="text-2xl font-bold"> Another Blog Post </span>
+            <span class="text-sm font-thin">
+              Content of the second blog post.
+            </span>
+          </div>
+        </div>
+      </main>
+
+      <footer class="py-4 flex justify-center bg-purple-700 text-white">
+          <span class="text-md "> © 2025 My Simple Blog </span>
+      </footer>
+    </div>
+  </body>
+</html>
